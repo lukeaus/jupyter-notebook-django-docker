@@ -1,0 +1,5 @@
+[run]
+include = jupyter_docker/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
