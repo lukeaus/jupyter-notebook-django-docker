@@ -1,5 +1,4 @@
 # Private - put your jupyter notebooks here
-notebooks/
 .ipynb_checkpoints/
 
 ### OSX ###
@@ -65,9 +64,11 @@ node_modules/
 # User-uploaded media
 jupyter_docker/media/
 
-
-
 staticfiles/
 
 .cache/
 
+# disallow notebooks
+notebooks/*
+# except allow demo.ipynb so it and the 'notebooks' folder appears in repo
+!notebooks/demo.ipynb

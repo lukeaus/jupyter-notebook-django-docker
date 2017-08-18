@@ -17,11 +17,16 @@ Note: First time takes a while to install everything
 ```
 ./start.sh
 ```
+Then follow the instructions onscreen and copy the url and paste it in your browser once
+it appears.
+
+
+## Exiting
 To exit, simply press ```control + c``` then press ```y``` then hit enter.
+
 
 ## Saving Notebooks
 Put your notebooks in the ```notebooks``` directory
-
 
 
 ## Unimportant Fluff
